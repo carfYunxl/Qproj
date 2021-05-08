@@ -35,7 +35,7 @@ public:
     //运算符重载
 
     //创建二叉树
-    void createBinaryTree(binaryTreeNode **node,QPair<int , QPointF>)       ;
+    void createBinaryTree(binaryTreeNode **node);
     //前序遍历二叉树
     void preOrderBinaryTree(binaryTreeNode **node,int level);
     //二叉树的深度

@@ -96,15 +96,16 @@ public:
 
         groupBox = new QGroupBox(tab);
         groupBox->setObjectName(QStringLiteral("groupBox"));
-        QSizePolicy sizePolicy(QSizePolicy::Preferred, QSizePolicy::Expanding);
+        QSizePolicy sizePolicy(QSizePolicy::Preferred, QSizePolicy::Preferred);
         sizePolicy.setHorizontalStretch(0);
         sizePolicy.setVerticalStretch(0);
         sizePolicy.setHeightForWidth(groupBox->sizePolicy().hasHeightForWidth());
         groupBox->setSizePolicy(sizePolicy);
+        groupBox->setMinimumSize(QSize(0, 50));
         groupBox->setAlignment(Qt::AlignCenter);
         checkBox = new QCheckBox(groupBox);
         checkBox->setObjectName(QStringLiteral("checkBox"));
-        checkBox->setGeometry(QRect(20, 40, 181, 41));
+        checkBox->setGeometry(QRect(10, 20, 181, 41));
 
         verticalLayout_2->addWidget(groupBox);
 

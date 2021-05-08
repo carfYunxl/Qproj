@@ -210,6 +210,7 @@ Makefile: ../drawTree/drawTree.pro ../../../QT5S/5.9.9/mingw53_32/mkspecs/win32-
 		../../../QT5S/5.9.9/mingw53_32/mkspecs/features/qt_config.prf \
 		../../../QT5S/5.9.9/mingw53_32/mkspecs/win32-g++/qmake.conf \
 		../../../QT5S/5.9.9/mingw53_32/mkspecs/features/spec_post.prf \
+		.qmake.stash \
 		../../../QT5S/5.9.9/mingw53_32/mkspecs/features/exclusive_builds.prf \
 		../../../QT5S/5.9.9/mingw53_32/mkspecs/features/toolchain.prf \
 		../../../QT5S/5.9.9/mingw53_32/mkspecs/features/default_pre.prf \
@@ -387,6 +388,7 @@ Makefile: ../drawTree/drawTree.pro ../../../QT5S/5.9.9/mingw53_32/mkspecs/win32-
 ../../../QT5S/5.9.9/mingw53_32/mkspecs/features/qt_config.prf:
 ../../../QT5S/5.9.9/mingw53_32/mkspecs/win32-g++/qmake.conf:
 ../../../QT5S/5.9.9/mingw53_32/mkspecs/features/spec_post.prf:
+.qmake.stash:
 ../../../QT5S/5.9.9/mingw53_32/mkspecs/features/exclusive_builds.prf:
 ../../../QT5S/5.9.9/mingw53_32/mkspecs/features/toolchain.prf:
 ../../../QT5S/5.9.9/mingw53_32/mkspecs/features/default_pre.prf:
